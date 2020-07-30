@@ -33,42 +33,42 @@ def key_press(frame,x,y,w1,h1):
     if x>x1 and y>y1 and x+w1<(x1 + w) and y+h1<(y1+h):
         cv2.rectangle(frame, (x1, y1), (x1 + w, y1 + h), (211,211,211), -1)
         pygame.mixer.Sound('wav/a1.wav').play()
-        time.sleep(0.08)
+        time.sleep(0.10)
         pygame.mixer.Sound('wav/a1.wav').stop()
     elif x>x2 and y>y2 and x+w1<(x2 + w) and y+h1<(y2+h):
         cv2.rectangle(frame, (x2, y2), (x2 + w, y2 + h), (211,211,211), -1)
         pygame.mixer.Sound('wav/b1.wav').play()
-        time.sleep(0.08)
+        time.sleep(0.10)
         pygame.mixer.Sound('wav/b1.wav').stop()
     elif x>x3 and y>y3 and x+w1<(x3 + w) and y+h1<(y3+h):
         cv2.rectangle(frame, (x3, y3), (x3 + w, y3 + h), (211,211,211), -1)
         pygame.mixer.Sound('wav/c1.wav').play()
-        time.sleep(0.08)
+        time.sleep(0.10)
         pygame.mixer.Sound('wav/c1.wav').stop()
     elif x>x4 and y>y4 and x+w1<(x4 + w) and y+h1<(y4+h):
         cv2.rectangle(frame, (x4, y4), (x4 + w, y4 + h), (211,211,211), -1)
         pygame.mixer.Sound('wav/c2.wav').play()
-        time.sleep(0.08)
+        time.sleep(0.10)
         pygame.mixer.Sound('wav/c2.wav').stop()
     elif x>x5 and y>y5 and x+w1<(x5 + w) and y+h1<(y5+h):
         cv2.rectangle(frame, (x5, y5), (x5 + w, y5 + h), (211,211,211), -1)
         pygame.mixer.Sound('wav/d1.wav').play()
-        time.sleep(0.08)
+        time.sleep(0.10)
         pygame.mixer.Sound('wav/d1.wav').stop()
     elif x>x6 and y>y6 and x+w1<(x6 + w) and y+h1<(y6+h):
         cv2.rectangle(frame, (x6, y6), (x6 + w, y6 + h), (211,211,211), -1)
         pygame.mixer.Sound('wav/e1.wav').play()
-        time.sleep(0.08)
+        time.sleep(0.10)
         pygame.mixer.Sound('wav/e1.wav').stop()
     elif x>x7 and y>y7 and x+w1<(x7 + w) and y+h1<(y7+h):
         cv2.rectangle(frame, (x7, y7), (x7 + w, y7 + h), (211,211,211), -1)
         pygame.mixer.Sound('wav/f1.wav').play()
-        time.sleep(0.08)
+        time.sleep(0.10)
         pygame.mixer.Sound('wav/f1.wav').stop()
     elif x>x8 and y>y8 and x+w1<(x8 + w) and y+h1<(y8+h):
         cv2.rectangle(frame, (x8, y8), (x8 + w, y8 + h), (211,211,211), -1)
         pygame.mixer.Sound('wav/g1.wav').play()
-        time.sleep(0.08)
+        time.sleep(0.10)
         pygame.mixer.Sound('wav/g1.wav').stop()
 cap = cv2.VideoCapture(0)
 while True:
